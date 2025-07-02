@@ -2,8 +2,155 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
+    <!-- Bootstrap Header -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style/style.css" />
     <title>My Portfolio</title>
   </head>
-  <body></body>
+
+  <body>
+    <nav class="sidebar">
+      <div><img src="imgs/Cyrine.png" width="100%" alt="Cyrine" /></div>
+
+      <ul style="list-style: none;">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="experience.html">My Experiences</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main
+      class="content d-flex flex-column align-items-left align-items-md-center gap-3"
+    >
+      <h1>Home</h1>
+
+      <!-- Personal Card -->
+
+      <div
+        class="card personalcard bg-opacity-10 border border-info shadow rounded-5"
+        style="width: 40rem"
+      >
+        <div class="row g-0">
+          <div class="col-md-3 col-12">
+            <img
+              src="imgs/face.jpg"
+              class="rounded-5 mx-auto d-block"
+              style="max-width: 100%; max-height: 300px"
+            />
+          </div>
+          <div class="col-md-9">
+            <div class="card-body">
+              <h5 class="card-title">Chaithat Thaithet</h5>
+              <p class="card-text">
+                Hi! You might know me as Errkk Skyseer Phetaliea. That's my in-game
+                name. I'm currently a studying Computer Engineering in Chaing
+                Mai University. My Likes? Bullet Hell, Moe, and game
+                devlopement.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2>Skills</h2>
+
+      <!-- Skill Card -->
+
+      <div class="card skillcard shadow" style="width: 42rem">
+        <div class="row g-0">
+          <div class="col-md-2 triangle-mask d-none d-md-block">
+            <img
+              src="imgs/Game Dev.png"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-10">
+            <div class="card-body">
+              <h5 class="card-title">Game Devlopmemnt</h5>
+              <p class="card-text">
+                I can like to make games in my free times. I can make games
+                using game engines like Unity. I can also make games without
+                game engines. Desiging, programming, drawing, I can do it all!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card skillcard shadow" style="width: 42rem">
+        <div class="row g-0">
+          <div class="col-md-2 triangle-mask d-none d-md-block">
+            <img
+              src="imgs/programming.png"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-10">
+            <div class="card-body">
+              <h5 class="card-title">Programming</h5>
+              <p class="card-text">
+                You can't make games without programming skill, of course
+                (unless someone do it for you). I can write code confidently in
+                C++ and C#. Langauge like Java, Python and C is also fine for me
+                but I need to look up the documents.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card skillcard shadow" style="width: 42rem">
+        <div class="row g-0">
+          <div class="col-md-2 triangle-mask d-none d-md-block">
+            <img
+              src="imgs/Hatena yousei.jpg"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-10">
+            <div class="card-body">
+              <h5 class="card-title">Drawing</h5>
+              <p class="card-text">
+                I can draw cute character illustrations. I usually draw in
+                "Chibi" style. I can also do Pixel Art and a little bit of
+                Realism (sketch only). If you want something "moe" I can draw it
+                for you!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div></div>
+      </footer>
+    </main>
+  </body>
 </html>
